@@ -1,0 +1,13 @@
+html
+    head
+        link(rel="stylesheet", href="s/style.css")
+        script(src="s/script.js")
+    
+    body(class="dashboard")
+        p(class="dashboard navbar")
+            span(id="darkmode-switch", onclick="toggleDarkmode()") DarkMode
+        each item in items
+            a(href=item.url,onclick="redirect(this)")
+                div(class="dashboard container")
+                    h2=item.title
+                    p=item.text

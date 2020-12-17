@@ -1,0 +1,38 @@
+body {
+    height: 95vh;
+    background: #ffdc82;
+    margin: 0;
+}
+
+.dashboard.navbar {
+    background: grey;
+    height: 2%;
+    padding: 1%;
+}
+
+.dashboard.container {
+    width: 45%;
+    height: 20%;
+    float: left;
+    padding: 25px;
+    margin: 10px;
+
+    border-radius: 5vh;
+    background: linear-gradient(145deg, #e6c675, #ffeb8b);
+    box-shadow: 25px 25px 54px #9c864f, -25px -25px 54px #ffffb5;
+
+
+    text-decoration: none;
+    color: #00237D;
+    font-family: 'Lucida Sans', sans-serif;
+}
+
+.dashboard.container.dark {
+    color: #FFDC82;
+    background: linear-gradient(145deg, #19398A, #001474);
+    box-shadow: 25px 25px 54px #6379B0, -25px -25px 54px #00004A;
+}
+
+body.dark {
+    background: #00237D;
+}
